@@ -1,0 +1,28 @@
+.cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.card {
+  width: 200px;
+  border-radius: 3px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  text-align: center;
+  padding: 20px;
+}
+
+.card img {
+  width: 150px;
+}
+
+.card p {
+  opacity: 0.5;
+}
+
+@media (max-width: 900px) {
+  .card {
+    margin-bottom: 15px;
+  }
+}
